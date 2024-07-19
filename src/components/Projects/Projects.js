@@ -36,6 +36,7 @@ function Projects() {
               title="Little Lemon Restaurant"
               description="I built a dynamic and fully responsive website for The Little Lemon Restaurant, a Mediterranean restaurant specializing in Italian, Greek, and Turkish cuisine. The site features comprehensive menus and dishes, reservation , with online shopping and login section currently under construction. The project leverages React.js for the frontend and MongoDB for the backend."
               ghLink="https://github.com/m-anil-duman/little-lemon-restaurant"
+              demoLink="https://lil-lemon.netlify.app/"
             />
           </Col>
 
