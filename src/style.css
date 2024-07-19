@@ -749,3 +749,18 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+
+@media (min-width: 770px) and (max-width: 993px) {
+  .card-item {
+    flex: 1 1 48%; /* 2 cards per row with a small gap */
+  }
+}
+
+@media (min-width: 993px) {
+  .card-item {
+    flex: 1 1 30%; /* 3 cards per row */
+  }
+}
+
+
