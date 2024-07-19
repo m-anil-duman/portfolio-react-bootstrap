@@ -19,27 +19,22 @@ function Home2() {
               LET ME <span className="cyan"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            Hello! I'm Anil Duman, a passionate and dedicated Software Developer with a keen interest in front-end development.
+             My journey in the tech world has equipped me with a solid foundation in web technologies, 
+             and I am eager to contribute my skills to  <i>
+                <b className="cyan"> innovative and dynamic projects. </b>
+              </i> 
+
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="cyan"> C++, Javascript and Go. </b>
+                <b className="cyan"> HTML, CSS and Javascript  </b>
               </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="cyan">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="cyan">
-                  Blockchain.
-                </b>
-              </i>
+              
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="cyan">Node.js</b> and
+              with 
               <i>
                 <b className="cyan">
                   {" "}

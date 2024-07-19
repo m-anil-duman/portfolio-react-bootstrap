@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle.js";
-import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/dev-activity.svg";
 import Toolstack from "./Toolstack";
+import AboutSoftSkills from "./AboutSoftSkills.js";
 
 function About() {
   return (
@@ -44,10 +44,10 @@ function About() {
           <strong className="cyan">Tools</strong> I use
         </h1>
         <Toolstack />
-
-        <Github />
+       <AboutSoftSkills/>
       </Container>
     </Container>
+
   );
 }
 
