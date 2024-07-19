@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
 import {
   DiJavascript1,
   DiReact,
@@ -15,42 +15,97 @@ import {
   SiRedux,
 } from "react-icons/si";
 
+function renderTooltip(props, message) {
+  return <Tooltip {...props}>{message}</Tooltip>;
+}
+
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <OverlayTrigger
+          placement="top"
+          overlay={(props) => renderTooltip(props, "JavaScript")}
+        >
+          <div><DiJavascript1 /></div>
+        </OverlayTrigger>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <OverlayTrigger
+          placement="top"
+          overlay={(props) => renderTooltip(props, "Node.js")}
+        >
+          <div><DiNodejs /></div>
+        </OverlayTrigger>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <OverlayTrigger
+          placement="top"
+          overlay={(props) => renderTooltip(props, "React")}
+        >
+          <div><DiReact /></div>
+        </OverlayTrigger>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <OverlayTrigger
+          placement="top"
+          overlay={(props) => renderTooltip(props, "MongoDB")}
+        >
+          <div><DiMongodb /></div>
+        </OverlayTrigger>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <OverlayTrigger
+          placement="top"
+          overlay={(props) => renderTooltip(props, "Next.js")}
+        >
+          <div><SiNextdotjs /></div>
+        </OverlayTrigger>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <OverlayTrigger
+          placement="top"
+          overlay={(props) => renderTooltip(props, "Git")}
+        >
+          <div><DiGit /></div>
+        </OverlayTrigger>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <OverlayTrigger
+          placement="top"
+          overlay={(props) => renderTooltip(props, "Firebase")}
+        >
+          <div><SiFirebase /></div>
+        </OverlayTrigger>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <OverlayTrigger
+          placement="top"
+          overlay={(props) => renderTooltip(props, "PostgreSQL")}
+        >
+          <div><SiPostgresql /></div>
+        </OverlayTrigger>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <OverlayTrigger
+          placement="top"
+          overlay={(props) => renderTooltip(props, "Python")}
+        >
+          <div><DiPython /></div>
+        </OverlayTrigger>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedux />
+        <OverlayTrigger
+          placement="top"
+          overlay={(props) => renderTooltip(props, "Redux")}
+        >
+          <div><SiRedux /></div>
+        </OverlayTrigger>
       </Col>
     </Row>
   );
 }
 
 export default Techstack;
+

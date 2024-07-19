@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiPostman,
@@ -8,23 +8,53 @@ import {
   SiFigma,
 } from "react-icons/si";
 
+
+function renderTooltip(props, message) {
+  return <Tooltip {...props}>{message}</Tooltip>;
+}
+
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFigma />
+        <OverlayTrigger
+          placement="top"
+          overlay={(props) => renderTooltip(props, "Figma")}
+        >
+          <div><SiFigma /></div>
+        </OverlayTrigger>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <OverlayTrigger
+          placement="top"
+          overlay={(props) => renderTooltip(props, "Visual Studio Code")}
+        >
+          <div><SiVisualstudiocode /></div>
+        </OverlayTrigger>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <OverlayTrigger
+          placement="top"
+          overlay={(props) => renderTooltip(props, "Postman")}
+        >
+          <div><SiPostman /></div>
+        </OverlayTrigger>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
+        <OverlayTrigger
+          placement="top"
+          overlay={(props) => renderTooltip(props, "Slack")}
+        >
+          <div><SiSlack /></div>
+        </OverlayTrigger>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <OverlayTrigger
+          placement="top"
+          overlay={(props) => renderTooltip(props, "Vercel")}
+        >
+          <div><SiVercel /></div>
+        </OverlayTrigger>
       </Col>
     </Row>
   );
