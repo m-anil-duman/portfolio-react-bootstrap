@@ -11,9 +11,11 @@ function AboutCard() {
             Hi Everyone, I am <span className="cyan">Anil Duman </span>
             from <span className="cyan"> Antalya, Turkey.</span>
             <br />
-            I am currently looking for Job opportunities
+            I hold a Bachelor's degree in Electrical Engineering.
             <br />
-            I have completed Electrical and Electronics Engineering at Akdeniz University,Antalya
+            I worked in a start-up for 2 years and currently am freelancing
+            <br />
+            I'am looking forward challanges and new opportunities
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

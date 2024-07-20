@@ -24,13 +24,11 @@ function Home2() {
              and I am eager to contribute my skills to  <i>
                 <b className="cyan"> innovative and dynamic projects. </b>
               </i> 
-
               <br />
               <br />I am fluent in classics like
               <i>
                 <b className="cyan"> HTML, CSS and Javascript  </b>
               </i>
-              
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products

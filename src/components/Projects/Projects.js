@@ -25,7 +25,6 @@ function Projects() {
               title="Stock Tracker"
               description="Stock Tracker app that manages to track live data of stock changes,User can track data in 5 different intervals, add stocks to the favourites to reach it easily. Built with React-Native,Expo Go,GraphQL,Stepzen,PostgreSQL"
               ghLink="https://github.com/m-anil-duman/StocksPriceTracker"
-              demoLink="https://StockTracker-49.web.app/"
             />
           </Col>
 
@@ -45,7 +44,7 @@ function Projects() {
               imgPath={dashboard}
               isBlog={false}
               title="M-[AD]min Dashboard"
-              description="I'm developing a sleek and efficient Admin-Dashboard for my portfolio, utilizing Next.js and MongoDB. This project showcases advanced features such as user management, data analytics, and real-time updates, all within a responsive and intuitive interface. With a focus on performance and scalability, this dashboard demonstrates my ability to create powerful and user-friendly admin tools.Currently under construction"
+              description="I'm developing a sleek and efficient Admin-Dashboard for my portfolio, utilizing Next.js and MongoDB. This project showcases advanced features such as user management, data analytics, and real-time updates, all within a responsive and intuitive interface. With a focus on performance and scalability, this dashboard demonstrates my ability to create powerful and user-friendly admin tools. Currently under construction"
               ghLink="https://github.com/m-anil-duman/admin-dashboard-project"
             />
           </Col>
