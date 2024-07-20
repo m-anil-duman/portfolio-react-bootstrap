@@ -20,7 +20,7 @@ function Footer() {
           <h3>Copyright © {year} M.A.D</h3>
         </Col>
         <Col md="4" className="footer-body">
-          <ul className="footer-icons">
+          {/* <ul className="footer-icons">
             <li className="social-icons">
               <a
                 href="https://github.com/m-anil-duman"
@@ -61,7 +61,7 @@ function Footer() {
                 <AiFillInstagram />
               </a>
             </li>
-          </ul>
+          </ul> */}
         </Col>
       </Row>
     </Container>

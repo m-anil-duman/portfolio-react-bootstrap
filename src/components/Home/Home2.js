@@ -4,8 +4,8 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillMail,
+  // AiOutlineTwitter,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,13 +19,13 @@ function Home2() {
               LET ME <span className="cyan"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            Hello! I'm Anil Duman, a passionate and dedicated Software Developer with a keen interest in front-end development.
+             A passionate and dedicated Software Developer with a keen interest in front-end development.
              My journey in the tech world has equipped me with a solid foundation in web technologies, 
              and I am eager to contribute my skills to  <i>
                 <b className="cyan"> innovative and dynamic projects. </b>
               </i> 
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in the essentials like
               <i>
                 <b className="cyan"> HTML, CSS and Javascript  </b>
               </i>
@@ -60,6 +60,16 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
+                  href="mailto:anil.duman00@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillMail />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
                   href="https://github.com/m-anil-duman"
                   target="_blank"
                   rel="noreferrer"
@@ -68,7 +78,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://twitter.com/"
                   target="_blank"
@@ -77,7 +87,7 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/anil-duman-a49b21207/"
@@ -88,16 +98,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
+              
             </ul>
           </Col>
         </Row>

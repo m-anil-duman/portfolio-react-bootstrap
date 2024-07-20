@@ -16,7 +16,7 @@ const AboutSoftSkills = () => {
                     <Col md={7}>
                         <blockquote className="blockquote mb-0">
                             <p style={{ textAlign: "start" }}>
-                                <span className="cyan"> <BsArrowBarRight /> Problem-Solving:</span> Adept at breaking down complex problems and finding effective solutions through analytical thinking and creativity.
+                                <span className="cyan"> <BsArrowBarRight /> Problem-Solving:</span> Breaking down complex problems and finding effective solutions through analytical thinking and creativity.
                                 <br />
                                 <br />
                                 <span className="cyan"> <BsArrowBarRight /> Communication:</span> Strong communicator, capable of articulating ideas clearly and working collaboratively with cross-functional teams.
@@ -32,7 +32,7 @@ const AboutSoftSkills = () => {
                                 <br />
                                 <br />
 
-                                I am enthusiastic about leveraging my front-end development skills and my soft skills to build impactful applications. I'm looking forward to growing as a developer and contributing to innovative projects that make a difference.
+                                I am enthusiastic about leveraging my front-end development skills and my soft skills to build impactful applications. <br/> I'm looking forward to growing as a developer and contributing to innovative projects that make a difference.
                             </p>
                         </blockquote>
                     </Col>
