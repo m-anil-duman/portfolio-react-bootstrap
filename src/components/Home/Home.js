@@ -5,7 +5,17 @@ import Particle from "../Particle.js";
 import Home2 from "./Home2";
 import Type from "./Type";
 
+
 function Home() {
+  const x = 2; 
+  let y = 4;
+ function update(arg) {
+   return Math.random() + y * arg; 
+  } 
+ y = 2;
+  
+   const result = update(x);
+   console.log(result);
   return (
     <section>
       <Container fluid className="home-section" id="home">
