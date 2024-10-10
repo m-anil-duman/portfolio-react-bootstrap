@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { BsArrowBarRight } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 
 function AboutCard() {
   return (
@@ -18,17 +18,17 @@ function AboutCard() {
             In a constant search for new opportunities, challenges and ways to enchance my performace and upgrade my skills.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do include Traveling, which has become my lifestyie. <br /> One can say that I am fully remote digital nomad. <br /> <br /> On a daily basis, I enjoy:
+            Apart from coding, some other activities that I love to do include Traveling, which has become my lifestyle. <br /> One can say that I am fully remote digital nomad. <br /> <br /> On a daily basis, I enjoy:
           </p>
           <ul>
             <li className="about-activity">
-              <BsArrowBarRight /> Doing Sports
+              <BsArrowRight /> Doing Sports
             </li>
             <li className="about-activity">
-              <BsArrowBarRight /> Reading Books
+              <BsArrowRight /> Reading Books
             </li>
             <li className="about-activity">
-              <BsArrowBarRight />  Fitness
+              <BsArrowRight />  Fitness
             </li>
           </ul>
 

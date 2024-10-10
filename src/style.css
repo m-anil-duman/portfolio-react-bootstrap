@@ -259,6 +259,7 @@ button:focus {
 
 .home-header {
   padding-top: 80px !important;
+  
 }
 
 .home-section {
@@ -284,7 +285,7 @@ button:focus {
 
 .heading-name {
   font-size: 2.5em !important;
-  padding-left: 45px !important;
+  padding-left: 45px;
 }
 
 .main-name {
@@ -309,6 +310,12 @@ button:focus {
   }
   .Typewriter__cursor {
     display: none !important;
+  }
+  .heading-name{
+    padding-left: 0px;
+  }
+  .home-header{
+    text-align: center;
   }
 }
 

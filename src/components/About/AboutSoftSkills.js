@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from "react-bootstrap/Card";
-import { BsArrowBarRight } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import soft from "../../Assets/Soft-skills.svg"
@@ -16,19 +16,19 @@ const AboutSoftSkills = () => {
                     <Col md={7}>
                         <blockquote className="blockquote mb-0">
                             <p style={{ textAlign: "start" }}>
-                                <span className="cyan"> <BsArrowBarRight /> Problem-Solving:</span> Breaking down complex problems and finding effective solutions through analytical thinking and creativity.
+                                <span className="cyan"> <BsArrowRight /> Problem-Solving:</span> Breaking down complex problems and finding effective solutions through analytical thinking and creativity.
                                 <br />
                                 <br />
-                                <span className="cyan"> <BsArrowBarRight /> Communication:</span> Strong communicator, capable of articulating ideas clearly and working collaboratively with cross-functional teams.
+                                <span className="cyan"> <BsArrowRight /> Communication:</span> Strong communicator, capable of articulating ideas clearly and working collaboratively with cross-functional teams.
                                 <br />
                                 <br />
-                                <span className="cyan"> <BsArrowBarRight /> Adaptability:</span> Quick learner who embraces new challenges and adapts to changing technologies and project requirements.
+                                <span className="cyan"> <BsArrowRight /> Adaptability:</span> Quick learner who embraces new challenges and adapts to changing technologies and project requirements.
                                 <br />
                                 <br />
-                                <span className="cyan"> <BsArrowBarRight /> Attention to Detail: </span> Detail-oriented approach ensuring high-quality code and user experiences.
+                                <span className="cyan"> <BsArrowRight /> Attention to Detail: </span> Detail-oriented approach ensuring high-quality code and user experiences.
                                 <br />
                                 <br />
-                                <span className="cyan"> <BsArrowBarRight /> Time Management:</span> Efficient in managing time and prioritizing tasks to meet deadlines and deliver successful projects.
+                                <span className="cyan"> <BsArrowRight /> Time Management:</span> Efficient in managing time and prioritizing tasks to meet deadlines and deliver successful projects.
                                 <br />
                                 <br />
 
