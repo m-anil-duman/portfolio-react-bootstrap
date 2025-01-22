@@ -6,7 +6,7 @@ import dashboard from "../../Assets/Projects/Dashboard-pj.png";
 import StockTracker from "../../Assets/Projects/StockTracker-cropped.jpg";
 import littleLemon from "../../Assets/Projects/Little Lemon Restaurant Home.png";
 import remedy from "../../Assets/Projects/remedy.png";
-
+import meditation from "../../Assets/Projects/meditation-app.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -19,7 +19,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={6} xl={4}className="project-card">
+          <Col md={6} xl={4} className="project-card">
             <ProjectCard
               imgPath={StockTracker}
               isBlog={false}
@@ -40,7 +40,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={6} xl={4}className="project-card">
+          <Col md={6} xl={4} className="project-card">
             <ProjectCard
               imgPath={dashboard}
               isBlog={false}
@@ -49,13 +49,22 @@ function Projects() {
               ghLink="https://github.com/m-anil-duman/admin-dashboard-project"
             />
           </Col>
-          <Col md={6} xl={4}className="project-card">
+          <Col md={6} xl={4} className="project-card">
             <ProjectCard
               imgPath={remedy}
               isBlog={false}
               title="Remedy Social Media Platform"
               description="I built fully responsive social media platform. I used MongoDb for database, For Front-End, React as framework,React-router for navigation,formik + yup for form and form validation,Redux for state management,For Back-End; Node.Js,Express.Js and Mongoose, JWT for authentication,Multer for file uploading. It requires further integration for production stage."
               ghLink="https://github.com/m-anil-duman/social-media-app"
+            />
+          </Col>
+          <Col md={6} xl={4} className="project-card">
+            <ProjectCard
+              imgPath={meditation}
+              isBlog={false}
+              title=" Mobile Meditation App "
+              description="I built simple meditation app with React-Native, used Expo Router for Routing. I am currently using this app on my mobile phone for my own meditation sessions. Features meditations and affirmations. Available for both IOS and Android"
+              ghLink="https://github.com/m-anil-duman/meditation-app"
             />
           </Col>
         </Row>
