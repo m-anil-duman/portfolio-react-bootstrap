@@ -8,17 +8,23 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-          I come from  Antalya, Turkey where I graduated from the Akdeniz University.  
+            I come from  Antalya, Turkey where I graduated from the Akdeniz University.
             <br />
-             I hold a Bachelor's degree in Electrical Engineering.
+
+            <br />I hold a Bachelor's degree in Electrical Engineering.
             <br />
-            Since I've always been passionate about computers, I was drawn into becoming an intern and later a Software Developer. 
-            <br/> I worked in a start-up for 2 years and currently am freelancing.
+            <br />
+            Since I've always been passionate about computers, I was drawn into becoming an intern and later a Software Developer.
+            <br />
+            <br /> I worked in a start-up for 2 years and then I decided to become a Full Stack Developer.
+            <br /><br />I have been working as a Freelancer over a year.
             <br /><br />
             In a constant search for new opportunities, challenges and ways to enchance my performace and upgrade my skills.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do include Traveling, which has become my lifestyle. <br /> One can say that I am fully remote digital nomad. <br /> <br /> On a daily basis, I enjoy:
+            Apart from coding, some other activities that I love to do include Traveling, which has become my lifestyle.
+            <br /> <br />  I am a digital nomad, who has become a passionate explorer of the world, and visited 6 countries in the last year, all while working remotely with a motivation and focus.
+            <br /> <br /> On a daily basis, I enjoy:
           </p>
           <ul>
             <li className="about-activity">

@@ -19,20 +19,30 @@ function Home2() {
               LET ME <span className="cyan"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-             A passionate and dedicated Software Developer with a keen interest in front-end development.
-             My journey in the tech world has equipped me with a solid foundation in web technologies, 
-             and I am eager to contribute my skills to  <i>
-                <b className="cyan"> innovative and dynamic projects. </b>
-              </i> 
+              A passionate and dedicated Software Developer with a Bachelor's in Electrical Engineering, I bring an analytical approach to problem-solving.
               <br />
-              <br />I am fluent in the essentials like
-              <i>
-                <b className="cyan"> HTML, CSS and Javascript  </b>
+              <br />
+              From intern to full-time developer, my journey reflects a deep commitment to mastering technologies.
+              <br />
+              <br />
+              My approaches are shaped by curiosity, adaptability, and a commitment to continuous learning.
+              <br />
+              <br />
+
+              Skilled in React Native, React and the MERN stack, I focus on delivering results by enhancing user experiences, and driving application efficiency.
+              <br />
+              <br />
+              I enjoy solving complex problems and turning ideas into functional, user-friendly applications.
+              <br />
+              <br />
+              My experience in the tech world has equipped me with a solid foundation in web technologies,
+              and I am eager to contribute my skills to  <i>
+                <b className="cyan"> innovative and dynamic projects. </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with 
+              with
               <i>
                 <b className="cyan">
                   {" "}
@@ -98,7 +108,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              
+
             </ul>
           </Col>
         </Row>
